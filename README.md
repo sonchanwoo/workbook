@@ -4,6 +4,6 @@
 
 <br/>
 
-> 문제집
+> Series : 책 없으면 아무것도 못 하지?
 
-[코드로 배우는 스프링 웹 프로젝트(구멍가게코딩단) : 혹시 책 없으면 시체니?](https://github.com/sonchanwoo/workbook/tree/main/gugucoding_spring)
+[코드로 배우는 스프링 웹 프로젝트(구멍가게코딩단)](https://github.com/sonchanwoo/workbook/tree/main/gugucoding_spring)
