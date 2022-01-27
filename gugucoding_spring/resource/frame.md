@@ -131,7 +131,7 @@ log4jdbc.spylogdelegator.name=net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator
         <property name="configLocation" value="classpath:/mybatis-config.xml"></property>
 	</bean>
 
-    <!-- 필요시 패키지 수정해서 사용 -->
+    <!-- 패키지 자신의 환경에 맞게 수정해서 사용 -->
     <context:component-scan base-package="com.company.service"></context:component-scan>
 
 	<mybatis-spring:scan base-package="com.company.dao" />
@@ -182,17 +182,21 @@ public class SqlSessionFactoryTests {
 
 <br/>
 
-- MyDAO.xml > resources에 패키지와 같은 경로(폴더하나씩)에 추가
+- MyDAO.xml > resources에 패키지와 같은 경로(꼭 폴더하나씩!!)에 추가
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper
   PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
- 
-<!-- 본인 상황에 맞는 dao(repository, mapper 등) 패키지 지정 -->
-<mapper namespace="">
 
+<!-- 패키지명 자신에 환경에 맞게 수정해서 사용 -->
+<mapper namespace="com.company.dao.MyDAO">
+	<select id="getTime" resultType="String">
+		<![CDATA[
+			select now()
+		]]>
+	</select>
 </mapper>
 ```
 
@@ -222,7 +226,6 @@ public class SqlSessionFactoryTests {
 
 ```java
 public interface MyDAO {
-    // mybatis-scan하면 @Component같은 것 없어도 빈등록이 된다.
 
     //매퍼를 사용하지 아니할 경우 어노테이션 사용
     //@Select("select now()")
@@ -268,22 +271,7 @@ public class HomeController {
 
 <br/>
 
-- Mapper.xml 추가/ jsp파일 수정
-
-```xml
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE mapper
-  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
-  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-
-<mapper namespace="com.company.dao.MyDAO">
-	<select id="getTime" resultType="String">
-		<![CDATA[
-			select now()
-		]]>
-	</select>
-</mapper>
-```
+- jsp파일 수정
 
 ```jsp
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
