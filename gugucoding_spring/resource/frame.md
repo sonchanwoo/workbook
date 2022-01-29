@@ -1,6 +1,6 @@
 # Spring legecy project - frame / 2번 문제 답안
 
-- 프로젝트 설정
+- [프로젝트 생성 및 설정](https://github.com/sonchanwoo/workbook/blob/main/gugucoding_spring/resource/1_answer.md)
 
 <br/>
 
