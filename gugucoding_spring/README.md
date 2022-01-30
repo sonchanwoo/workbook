@@ -21,3 +21,7 @@
 <br/>
 
 [(3) 틀을 적용하여 이상이 없는지 테스트한 후, 요구사항에 맞게 아주 기본적인 CRUD 구현하기!](https://github.com/sonchanwoo/workbook/blob/main/gugucoding_spring/resource/3.md)
+
+<br/>
+
+[(4) 3번에서 반영하지 않은, 모달창 등 추가하기!](https://github.com/sonchanwoo/workbook/blob/main/gugucoding_spring/resource/4.md)
