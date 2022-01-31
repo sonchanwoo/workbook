@@ -25,3 +25,7 @@
 <br/>
 
 [(4) 3번에서 반영하지 않은, 모달창 등 추가하기!](https://github.com/sonchanwoo/workbook/blob/main/gugucoding_spring/resource/4.md)
+
+<br/>
+
+[(5) 페이징 처리하기!](https://github.com/sonchanwoo/workbook/blob/main/gugucoding_spring/resource/5.md)

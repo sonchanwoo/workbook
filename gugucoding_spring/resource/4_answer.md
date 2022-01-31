@@ -118,7 +118,7 @@
 
 - 모달 코드 list.jsp에 포함(부트스트랩 필요)
 
-```java
+```jsp
 <div class="modal" id="myModal" tabindex="-1" role="dialog"
 	aria-labelledby="myModalLabel" aria-hidden="true">
 	<div class="modal-dialog">
