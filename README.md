@@ -7,3 +7,9 @@
 > Series : 책 없으면 아무것도 못 하지?
 
 [코드로 배우는 스프링 웹 프로젝트(구멍가게코딩단)](https://github.com/sonchanwoo/workbook/tree/main/gugucoding_spring)
+
+<br/>
+
+> Series : 자격증 시험
+
+[정보처리기사](https://github.com/sonchanwoo/workbook/tree/main/EngineerInformationProcessing)
