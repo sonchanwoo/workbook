@@ -4,8 +4,6 @@
 
 -> 시간이 지나도, 여기 있는 것만 보고 합격할 수 있어야 한다.
 
--> 한 파트당 요점정리와 문제로 구성.
-
 <br/>
 
 > 3과목 : 데이터베이스 구축
@@ -13,6 +11,16 @@
 1. 논리 데이터베이스 설계
 
 - [데이터베이스 일반](https://github.com/sonchanwoo/workbook/blob/main/EngineerInformationProcessing/resource/3_1_1.md)
+
+- [관계형 데이터베이스 이야기]((https://github.com/sonchanwoo/workbook/blob/main/EngineerInformationProcessing/resource/3_1_2.md))
+
+<br/>
+
+2. 물리 데이터베이스 설계
+
+<br/>
+
+3. SQL
 
 
 
