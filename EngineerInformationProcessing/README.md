@@ -12,7 +12,7 @@
 
 1. 논리 데이터베이스 설계
 
-- 데이터베이스 설계
+- [데이터베이스 일반](https://github.com/sonchanwoo/workbook/blob/main/EngineerInformationProcessing/resource/3_1_1.md)
 
 
 
